@@ -9,6 +9,7 @@
     height: 1200px;
     background-color: grey;
     margin: 100px auto;
+    word-spacing: -10px;
 }
 
 .product {
@@ -17,6 +18,7 @@
     background-color: rgb(255, 255, 255);
     display: inline-block;
     position: relative;
+    word-spacing: normal;
 }
 
 .product img {
@@ -37,6 +39,19 @@
     display: inline-block;
 }
 
+.marca {
+    color: grey;
+}
+
+.prezzo_scontato {
+    color: red;
+}
+
+.prezzo_sbarrato {
+    color: black;
+}
+
+/* CUORE */
 .favourite{
     font-size: 50px;
     background-color: white;
@@ -44,4 +59,22 @@
     position: absolute;
     top: 20px;
     right: 0;
+}
+
+/* BADGE */
+.badge_sconto {
+    color: white;
+    background-color: rgb(216, 9, 9);
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+}
+.badge_sostenibilita{
+    color: white;
+    background-color: rgb(62, 146, 62);
+    padding: 5px;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
 }
