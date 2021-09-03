@@ -45,10 +45,13 @@
 
 .prezzo_scontato {
     color: red;
+    font-size: 12px;
 }
 
 .prezzo_sbarrato {
     color: black;
+    font-size: 12px;
+
 }
 
 /* CUORE */
@@ -77,4 +80,10 @@
     position: absolute;
     bottom: 80px;
     left: 50px;
+}
+ 
+ .left{
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
 }
