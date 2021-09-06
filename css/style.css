@@ -62,7 +62,10 @@
     position: absolute;
     top: 20px;
     right: 0;
+    background-color: rgb(233, 232, 232);
+    border: 0;
 }
+
 
 /* BADGE */
 .badge_sconto {
